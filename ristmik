@@ -1,0 +1,68 @@
+public void vertikaalne(Foor foor){
+        int count1 = 0;
+        while (count1 < 10) {
+            foor.vahetaPunast();
+            foor.paus(8.0);
+            foor.vahetaKollast();
+            foor.paus(0.7);
+            foor.kustutaPunane();
+            foor.kustutaKollane();
+            foor.paus(0.3);
+            foor.vahetaRohelist();
+            foor.paus(3.0);
+            foor.kustutaRoheline();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.kustutaRoheline();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.kustutaRoheline();
+            foor.vahetaKollast();
+            foor.paus(0.7);
+            foor.kustutaKollane();
+            foor.paus(0.3);
+
+            count1=count1+1;
+        }
+    }
+    public void horisontaalne(Foor foor){
+        int count2 = 0;
+        while (count2 < 10) {
+            foor.vahetaRohelist();
+            foor.paus(3.0);
+            foor.kustutaRoheline();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.kustutaRoheline();
+            foor.paus(0.5);
+            foor.vahetaRohelist();
+            foor.paus(0.5);
+            foor.kustutaRoheline();
+            foor.vahetaKollast();
+            foor.paus(0.7);
+            foor.kustutaKollane();
+            foor.paus(0.3);
+            foor.vahetaPunast();
+            foor.paus(9.0);
+            foor.vahetaKollast();
+            foor.paus(0.7);
+            foor.kustutaPunane();
+            foor.kustutaKollane();
+            foor.paus(0.3);
+
+
+            count2 = count2 + 1;
+        }
+
+    }

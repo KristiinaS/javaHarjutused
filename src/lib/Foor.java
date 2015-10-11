@@ -90,7 +90,7 @@ public class Foor {
         Syndmused.add(new FooriK2sk(evt, value, AnimKestus /* current time on anim */));
     }
 
-    public void syytaPunane()     { lisaK2sk(FooriSyndmus.SYYTA, Foor.PUNANE);    }
+    public void syytaPunane(double v)     { lisaK2sk(FooriSyndmus.SYYTA, Foor.PUNANE);    }
     public void syytaKollane()    { lisaK2sk(FooriSyndmus.SYYTA, Foor.KOLLANE);   }
     public void syytaRoheline()   { lisaK2sk(FooriSyndmus.SYYTA, Foor.ROHELINE);  }
 
